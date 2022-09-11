@@ -1,0 +1,38 @@
+.img__carousel {
+  height: calc(100vh - 95px);
+  object-fit: cover;
+}
+
+.div__conferencia {
+  bottom: 10vw;
+  right: 10vw;
+  left: 50vw;
+  text-align: end;
+}
+
+.div__introduccion {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+.carousel-inner {
+  z-index: -1;
+}
+
+.btn-bd-primary {
+  --bs-btn-border-color: var(--bs-white);
+  --bs-btn-color: var(--bs-white);
+}
+
+h6 {
+  margin-right: 0.3rem;
+}
+
+.oradores {
+  margin-top: 1rem;
+  margin-bottom: 0 !important;
+}
+
+.oradores-subtitle {
+  margin-bottom: 1rem;
+}
