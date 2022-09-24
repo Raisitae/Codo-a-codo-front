@@ -1,3 +1,7 @@
+* {
+  max-width: 100vw;
+}
+
 .img__carousel {
   height: calc(100vh - 95px);
   object-fit: cover;
@@ -6,7 +10,6 @@
 .div__conferencia {
   bottom: 10vw;
   right: 10vw;
-  left: 50vw;
   text-align: end;
 }
 
@@ -24,6 +27,16 @@
   --bs-btn-color: var(--bs-white);
 }
 
+.link-secondary {
+  --bs-link-hover-color: var(--bs-white);
+  --bs-nav-link-hover-color: var(--bs-white);
+}
+
+.link-secondary:hover,
+.link-secondary:active {
+  color: var(--bs-white) !important;
+}
+
 h6 {
   margin-right: 0.3rem;
 }
@@ -35,4 +48,36 @@ h6 {
 
 .oradores-subtitle {
   margin-bottom: 1rem;
+}
+
+.Bsas__texto {
+  font-size: 1.1rem;
+}
+
+.Bsas__div {
+  margin: 5rem 0 1rem 0;
+}
+
+.text__dotted {
+  border-bottom: 1px dotted;
+}
+
+.footer {
+  background-image: linear-gradient(90deg, rgb(50 66 70), rgb(26 84 115));
+}
+
+ul {
+  margin-bottom: 0 !important;
+}
+
+.input__datos {
+  padding: 0;
+}
+
+.input__nombre {
+  padding-right: 1rem !important;
+}
+
+.input__apellido {
+  padding-left: 1rem !important;
 }
