@@ -81,3 +81,9 @@ ul {
 .input__apellido {
   padding-left: 1rem !important;
 }
+
+@media screen and (max-width: 768px) {
+  .honolulu {
+    flex-direction: column !important;
+  }
+}
